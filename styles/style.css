@@ -8,3 +8,98 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #1c5380;
+  position: fixed;
+  float: none;
+  z-index: -1;
+}
+
+section {
+  margin: 50px 100px 50px 100px;
+  position: relative;
+  float: inline-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: +1;
+}
+
+#right-of-phone {
+  padding-left: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#logo-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.image-size {
+  height: 50px;
+}
+
+#logo-bar button {
+  background-color: #1c5380;
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 90px;
+  padding: 0 10px 0 10px;
+  border: 1px solid #06365f;
+  border-radius: 3px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article h1 {
+  color: #06365f;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  padding: 0 40px;
+}
+
+article p {
+  padding: 0 40px;
+  font-size: .9em;
+  text-align: left;
+}
+
+#text-box {
+  background: url(/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+
+#button-bar img {
+  padding: 10px 0 0 20px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .7em;
+  padding: 0 200px 50px 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  text-decoration: none; 
+  font-weight: bold;
+  color: #1c5380;
+}
